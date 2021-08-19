@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    background-color: #f7f4f3;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1f1f1f;
+    font-size: 18px;
+    line-height: 30px;
+    cursor: default;
+    font: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.name{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(36, 88, 5);
+    padding-top: 5px;
+}
+ul{
+    list-style-type: none;
+    top: 0;
+   position: relative;
+  float: right;
+   padding-top: 5px;
+   cursor: pointer;
+   
+}
+  a{
+    color:rgba(39, 73, 6, 0.945);
+    background-color: #f7f4f3;
+    text-decoration: none;
+  }
+  
+li{
+    display: inline;
+    font-weight: bold;
+    padding-right: 10px;
+    color: rgba(39, 73, 6, 0.945);
+    border-right: 0.5px solid;
+    padding-left: 10px;
+    
+}
+li:last-child{
+    border:none
+}
+div.paragraph{
+    margin: 20px 50px;
+    text-align: left;
+    padding-right: 20px;
+    padding-top: 120px;
+}
+.intro{
+    color: chartreuse;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 42px;
+    margin: 10px 0;
+    font-family: sofia-pro, sans-serif;
+    display: block;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+    
+}
+
+#submit{
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+button.first{
+    background-color: crimson;
+    font-weight: bold;
+    color:white;
+    padding: 10px 10px;
+    border-radius: 15px 15px 15px 15px;
+    margin-right: 10px;
+}
+button.second{
+    background-color: rgb(106, 112, 201);
+    font-weight: bold;
+    color:white;
+    padding: 10px 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+    
+h2 {
+    background-color: #ddd;
+    color:rgba(39, 73, 6, 0.945);
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    font-size: 16px;
+    line-height: 10px;
+  }
+
+  #about {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #5c5b66;
+    font-family: Hind,sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .nav{
+      text-align: right;
+      color: rgba(39, 73, 6, 0.945);
+      position: fixed; 
+      top: 0; 
+      width: 100%; 
+      z-index:300;
+    } 
+  
+    #about-me {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+  #about-me {
+    flex-direction: column;
+  }
+
+.first{ margin-top: 25px}
+  .second{
+    margin-top: 15px;
+  }
+  .fa-twitter
+  {
+margin-top: 15px ;
+  }
+}
+
+
+#skill-set{
+  margin-top: 50px;
+    margin-bottom: 40px;
+    color: #5c5b66;
+    font-family: Hind,sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3);
+    margin: 80px;  
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  #icons{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+position: relative;
+float: right;
+background: salmon;
+max-width: 100%;
+  height: auto;
+margin-top: 30px;
+ }
+ 
+  @media screen and (max-width : 800px){
+    .nav {
+     width: 100%;
+  }
+  ul{
+    margin-top: 2px;
+    margin-left: -15px; 
+  position: relative; 
+  }
+  .name{
+    margin-top: 45px;
+    display: inline-block;
+  
+  }
+  }
+  @media screen and (min-width: 768px){
+  .rwd-break {
+      display: none;} }
